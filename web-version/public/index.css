@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://www.walldevil.com/wallpapers/a30/wallpapers-background-pclinuxos-linux-array2-ground-back.jpg");
+    background-color: #cccccc;
+}
+
+.titulo{
+	font-family:Courier;
+ 	color: #CCCCCC;	
+}
+
+.console {
+  	font-family:Courier;
+ 	color: #CCCCCC;
+  	background: #000000;
+  	border: 3px double #CCCCCC;
+  	padding: 10px;
+}

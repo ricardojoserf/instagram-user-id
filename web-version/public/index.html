@@ -1,0 +1,39 @@
+<!doctype html>  
+<html lang="en" ng-app="angularInstagram">  
+    
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Instagram ID</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>  
+    
+    <body ng-controller="mainController">  
+    
+        <div class="container"> 
+            <div class="text-center titulo">
+                <h1>Get you Instagram ID!</h1>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg text-center console" placeholder="Insert your username" ng-model="code_">
+                        </div>
+                        <button class="btn btn-primary btn-lg" ng-click="submit()">Get my id</button>
+                        <br><br>
+                        <textarea rows="10" class="text-center form-control input-lg console"  placeholder="Your ID" ng-model="result"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> 
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script> 
+        <script src="main.js"></script>
+
+    </body>
+
+</html>  
