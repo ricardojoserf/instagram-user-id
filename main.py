@@ -1,5 +1,5 @@
-import sys, json, requests, os
-
+import sys, json, os
+from libs import requests
 
 def get_id(username):
 	url="https://www.instagram.com/"+username+"/?__a=1"
