@@ -10,3 +10,11 @@ python main.py USERNAME
 ## Example
 
 python main.py ricardojoserf
+
+
+## Website
+
+Open web-version -> npm install && node-server.js. But one route must be changed (*instid/ -> ../* or similar)
+
+
+![Screenshot](Screenshot.png)
