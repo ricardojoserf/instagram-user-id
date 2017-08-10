@@ -40,9 +40,9 @@ is at <http://python-requests.org>.
 :license: Apache 2.0, see LICENSE for more details.
 """
 
-import urllib3
-import chardet
-import warnings
+from libs import urllib3
+from libs import chardet
+from libs import warnings
 from .exceptions import RequestsDependencyWarning
 
 
