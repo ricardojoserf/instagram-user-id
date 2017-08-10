@@ -4,12 +4,12 @@ Get the user ID of any user in instagram
 
 ## Usage
 
-python main.py USERNAME
+*python main.py USERNAME*
 
 
 ## Example
 
-python main.py ricardojoserf
+*python main.py ricardojoserf*
 
 
 ## Website
@@ -17,4 +17,4 @@ python main.py ricardojoserf
 Open web-version -> npm install && node-server.js. But one route must be changed (*instid/ -> ../* or similar)
 
 
-![Screenshot](Screenshot.png)
+![Screenshot](img/Screenshot.png)
