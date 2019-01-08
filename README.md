@@ -7,23 +7,25 @@ Get the user ID of any user in instagram
 *python main.py* USERNAME
 
 
-## Requirements
+## Python script - Requirements
 
-Python script: 	*pip install -r requirements.txt*
+*pip install -r requirements.txt*
 
-Web server: 	*cd web-version && npm install && node server.js*
-
-## Example
+## Example I
 
 *python main.py ricardojoserf*
-
 
 ![Screenshot](img/1.png)
 
 
-## Web server
+## Web server - Requirements
 
-Open web-version -> npm install && node-server.js. But one route must be changed (*instid/ -> ../* or similar)
+*sudo apt-get install nodejs npm*
+
+*cd web-version && npm install && nodejs server.js*
+
+
+## Example II
 
 
 ![Screenshot](img/2.png)
