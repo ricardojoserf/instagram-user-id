@@ -13,7 +13,7 @@ app.configure(function() {
 app.get("/exec", function (req, res) {  
     
     var code = req.query['code'];
-    var command = "python ../instid/main.py " + code;
+    var command = "python ../main.py " + code;
     exec(command, function (error, stdout, stderr) {
         if (error === null) {
             res.header("Content-Type", "application/json");

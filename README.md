@@ -18,7 +18,7 @@ Web server: 	*cd web-version && npm install && node server.js*
 *python main.py ricardojoserf*
 
 
-![Screenshot](img/cmd_example.png)
+![Screenshot](img/1.png)
 
 
 ## Web server
@@ -26,4 +26,4 @@ Web server: 	*cd web-version && npm install && node server.js*
 Open web-version -> npm install && node-server.js. But one route must be changed (*instid/ -> ../* or similar)
 
 
-![Screenshot](img/Screenshot.png)
+![Screenshot](img/2.png)
