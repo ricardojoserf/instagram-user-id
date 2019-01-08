@@ -6,7 +6,8 @@ def get_id(username):
 	response = requests.get(url)
 	respJSON = response.json()
 	try:
-		return user_id = str( respJSON['users'][0].get("user").get("pk") )
+		user_id = str( respJSON['users'][0].get("user").get("pk") )
+		return user_id
 	except:
 		return "Unexpected error"
 
