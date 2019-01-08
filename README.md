@@ -16,14 +16,14 @@ Get the user ID of any user in instagram
 *cd web-version && npm install && nodejs server.js*
 
 
-## Example I
+## Example - Python script
 
 *python main.py ricardojoserf*
 
 ![Screenshot](img/1.png)
 
 
-## Example II
+## Example - Web server
 
 
 ![Screenshot](img/2.png)
