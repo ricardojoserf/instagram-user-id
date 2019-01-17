@@ -4,8 +4,9 @@ Get the user ID of any user in instagram
 
 ## Usage
 
-*python main.py* USERNAME
-
+```
+python main.py $USERNAME
+```
 
 ## Requirements
 
