@@ -9,11 +9,13 @@ Get the user ID of any user in instagram
 
 ## Requirements
 
-*pip install -r requirements.txt*
+```
+pip install -r requirements.txt
 
-*sudo apt-get install nodejs npm*
+sudo apt-get install nodejs npm
 
-*cd web-version && npm install && nodejs server.js*
+cd web-version && npm install && nodejs server.js
+```
 
 
 ## Example - Python script
@@ -27,3 +29,8 @@ Get the user ID of any user in instagram
 
 
 ![Screenshot](img/2.png)
+
+
+## Note
+
+Tested both in Python2.x (2.7.15rc1) and Python 3.x (3.6.7)
