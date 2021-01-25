@@ -6,8 +6,9 @@ def get_id(username):
 	response = requests.get(url)
 	respJSON = response.json()
 	try:
-		user_id = str( respJSON['users'][0].get("user").get("pk") )
-		return user_id
+		for i in respJSON["users"]:
+			if (i["user"]["username"] == username):
+				return (i["user"]["pk"])
 	except:
 		return "Unexpected error"
 
@@ -19,4 +20,4 @@ def main():
 	print("ID: "+user_id)
 
 if __name__ == "__main__":
-    main()	
+    main()
