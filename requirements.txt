@@ -1,4 +1,4 @@
 pyOpenSSL==18.0.0
-cryptography==3.3.2
+cryptography==39.0.1
 protobuf==3.15.0
 simplejson==3.16.0
